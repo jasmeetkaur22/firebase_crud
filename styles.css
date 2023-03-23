@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #333;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+.add{
+    padding: 3% 1%;
+}
+.line{
+    background-color: #888;
+    width: 2px;
+    height: 100%;
+}
+h1{
+    font-size: 5rem;
+    color: #999;
+}
+input[type=text]{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #eee;
+    width: 100%;
+    border-radius: 5px;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+}
+input[type=text]::placeholder{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #666;
+}
+
+textarea{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #eee;
+    width: 100%;
+    border-radius: 5px;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 3%;
+    gap: 5%;
+    width: 100%;
+    display: grid;
+    flex-direction: column;
+}
+
+.container img{
+    align-self: center; 
+    justify-self: center;
+}
+
+.container .card{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-height: 250px;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    background: #333;
+}
+.container .card hr{
+    width: 100%;
+    color: white;
+}
+
+.container .card .head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5%;
+}
+
+.container .card .body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-height: 150px;
+    padding: 5%;
+}
+
+.container .card .foot{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.container .card .foot .time{
+    margin-left: 5px;
+    color: #eee;
+}
+
+.container .card .foot .del-button{
+    margin-left: auto;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+.container .card .foot .del-button button{
+    border-radius: 5px;
+    padding: 3%;
+    background-color: #888;
+    color: #eee;
+    border: none;
+}
